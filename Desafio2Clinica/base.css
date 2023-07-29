@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ff862d;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: auto;
+    background-color: #ff862d;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #10428b;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 700px;
+    padding: 20px;
+}
+.footer {
+    background-color: #ffead9;
+    min-height: auto;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table tr:nth-child(even){ /*Fazer uma tabela com cor alternativa entre as celulas*/
+    background-color: #43618d;
+}
+
+
+table tr:hover td{ /*Onde o mouser passa fica marcado com essa cor*/
+    background-color: #ff862d;
+}
